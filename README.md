@@ -14,7 +14,5 @@ abbreviation and press `Tab`:
 Persian digits work too (`loremfa۱۲`, `loremfa*۲`). Word counts are limited to
 1000 and paragraph counts to 50.
 
-<img src="images/demo.gif" alt="LoremFA demo" width="480">
-
 Learn more at [loremfa.ir](https://loremfa.ir).
 
