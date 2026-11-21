@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "engines": { "vscode": "^1.74.0" },
   "main": "./extension.js",
+  "icon": "images/icon.png",
   "activationEvents": ["onStartupFinished"],
   "contributes": {
     "commands": [{ "command": "loremfa.expand", "title": "LoremFA: Expand Abbreviation" }],

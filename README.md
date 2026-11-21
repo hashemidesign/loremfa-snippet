@@ -1,7 +1,5 @@
 # LoremFA
 
-<img src="images/icon.png" alt="LoremFA icon" width="96" align="right">
-
 <img src="images/LoremFA.png" alt="LoremFA in action" width="480">
 
 VS Code extension that inserts Persian (Farsi) lorem ipsum text. Type an
