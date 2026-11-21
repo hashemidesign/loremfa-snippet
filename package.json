@@ -2,6 +2,7 @@
   "name": "loremfa",
   "displayName": "LoremFA",
   "description": "Type loremfa and press Tab to insert Persian placeholder text: loremfa for a paragraph, loremfa12 for 12 words, loremfa*2 for 2 paragraphs.",
+  "publisher": "MHashi",
   "version": "0.1.0",
   "license": "MIT",
   "categories": ["Snippets"],
