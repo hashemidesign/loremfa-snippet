@@ -1,0 +1,17 @@
+{
+  "name": "loremfa",
+  "displayName": "LoremFA",
+  "description": "Type loremfa and press Tab to insert Persian placeholder text: loremfa for a paragraph, loremfa12 for 12 words, loremfa*2 for 2 paragraphs.",
+  "version": "0.1.0",
+  "engines": { "vscode": "^1.74.0" },
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "commands": [{ "command": "loremfa.expand", "title": "LoremFA: Expand Abbreviation" }],
+    "keybindings": [{
+      "key": "tab",
+      "command": "loremfa.expand",
+      "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus && !inSnippetMode && loremfa.canExpand"
+    }]
+  }
+}
